@@ -26,7 +26,6 @@ It helps users organize daily tasks, track progress, and improve productivity wi
 - HTML5
 - CSS3
 - JavaScript (Vanilla JS)
-- Browser LocalStorage API
 
 ---
 
@@ -39,20 +38,13 @@ It helps users organize daily tasks, track progress, and improve productivity wi
 
 ---
 
- Screenshots
-
-_Add screenshots here (optional)_
-
----
-
  Author
 
 shraisti karan
-
-
+https://github.com/shraistikaran
 
 ---
 
-## 📜 License
+ License
 
 This project is open source and free to use for learning purposes.
