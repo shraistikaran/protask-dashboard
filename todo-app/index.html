@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ProTask Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>ProTask</h2>
+
+    <p id="date"></p>
+
+    <button id="themeBtn">🌙 Dark Mode</button>
+
+    <div class="stats">
+      <p>Total: <span id="total">0</span></p>
+      <p>Done: <span id="done">0</span></p>
+      <p>Pending: <span id="pending">0</span></p>
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <main>
+
+    <h1>Task Manager</h1>
+
+    <div class="add-box">
+      <input type="text" id="taskInput" placeholder="Add new task...">
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
